@@ -1,34 +1,34 @@
 {
   "settings": {
     "brand": "PURE NARI",
-    "tagline": "Korean skincare, beautifully curated.",
+    "tagline": "Premium Korean skincare, carefully curated for your everyday glow.",
     "phone": "01944299143",
     "whatsapp": "8801944299143",
     "email": "hello@purenari.com",
-    "announcement": "KOREAN SKINCARE · AUTHENTIC BEAUTY · DELIVERY ACROSS BANGLADESH",
-    "aboutTitle": "Your Korean skincare ritual, refined.",
-    "aboutText": "Discover carefully selected Korean skincare for cleansing, hydration, treatment and daily protection. Product information, prices, offers and store content are editable from the admin panel."
+    "announcement": "KOREAN SKINCARE · REAL RESULTS · 24 HOUR SERVICE",
+    "aboutTitle": "Korean beauty, curated for your glow.",
+    "aboutText": "Discover carefully selected Korean skincare for cleansing, hydration, treatment and daily protection. Product information, prices, offers and store content stay editable from the admin panel."
   },
   "theme": {
-    "bg": "#fbfaf7",
-    "panel": "#ffffff",
-    "ink": "#181715",
-    "muted": "#77736c",
-    "accent": "#b98b63",
-    "soft": "#f2ebe4",
-    "radius": "24px"
+    "bg": "#fff",
+    "panel": "#fff",
+    "ink": "#20242b",
+    "muted": "#777",
+    "accent": "#e54872",
+    "soft": "#fff0f4",
+    "radius": "18px"
   },
   "hero": {
-    "eyebrow": "PURE NARI · K-BEAUTY EDIT",
-    "title": "Skin, the Korean way.",
-    "description": "A premium collection of Korean skincare essentials for simple, thoughtful routines.",
+    "eyebrow": "KOREAN SKINCARE",
+    "title": "Healthy Skin, Brighter You",
+    "description": "Premium Korean skincare for your natural glow. Clean, safe and beautifully curated.",
     "image": "https://images.unsplash.com/photo-1556228578-8c89e6adf883?auto=format&fit=crop&w=1800&q=85"
   },
   "benefits": [
-    "Korean skincare essentials",
-    "Nationwide delivery across Bangladesh",
-    "24 hour customer support",
-    "Curated product information"
+    "সারা বাংলাদেশে Free Delivery",
+    "Free Consultation",
+    "24 Hour Service",
+    "100% Authentic Products"
   ],
   "categories": [
     "All",
