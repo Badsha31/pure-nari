@@ -13,7 +13,7 @@ function renderProducts(){
   if(sort==="featured")arr.sort((a,b)=>(b.featured?1:0)-(a.featured?1:0));
   if(!$("#products"))return;
   $("#products").innerHTML=arr.map(p=>{
-    const badge=p.newArrival?"New":p.featured?"Premium":"";
+    const badgeMap={fw1:"New",fw2:"Premium",fw3:"Best Seller",fw4:"Party Wear",fw5:"Trending",fw6:"New",fw7:"Embroidered",fw8:"Premium"}; const badge=badgeMap[p.id]||"";
     return '<article class="product" data-view="'+esc(p.id)+'">'+
       '<div class="productImg">'+
       (badge?'<span class="badge">'+badge+'</span>':"")+
@@ -21,7 +21,7 @@ function renderProducts(){
       '<img src="'+esc(p.image)+'" alt="'+esc(p.name)+'" loading="lazy">'+
       '</div><div class="productMeta">'+
       '<h3>'+esc(p.name)+'</h3>'+
-      '<div class="stars">★ '+p.rating+' <span>('+Math.round(p.rating*25)+')</span></div>'+
+      '<div class="stars">★ '+p.rating+' <span>('+(p.reviewCount||Math.round(p.rating*25))+')</span></div>'+
       '<div class="price"><b>'+money(p.price)+'</b><span class="old">'+money(p.oldPrice)+'</span></div>'+
       '<div class="productActions"><button class="mini primary" data-add="'+esc(p.id)+'">♧ Add to Bag</button><button class="mini order" data-order="'+esc(p.id)+'">Order Now</button></div>'+
       '</div></article>';
