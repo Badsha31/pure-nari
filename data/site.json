@@ -1,28 +1,215 @@
 {
-  "settings":{"brand":"FashioN /w SoniA","tagline":"Premium three-piece fashion, curated for women who love effortless elegance.","phone":"01944299143","whatsapp":"8801944299143","email":"hello@fashionwithsonia.com","announcement":"","aboutTitle":"Three-piece style, made beautifully.","aboutText":"FashioN /w SoniA brings together elegant three-piece looks with carefully selected fabrics, refined detailing and wearable silhouettes. Explore the collection, order online and talk to our fashion agent whenever you need help."},
-  "theme":{"bg":"#fbf7f2","panel":"#fffdf9","ink":"#28221f","muted":"#766d67","accent":"#a45b48","soft":"#f4e5dc","radius":"20px"},
-  "hero":{"eyebrow":"","title":"","description":"","image":"https://images.pexels.com/photos/20777201/pexels-photo-20777201.jpeg?auto=compress&cs=tinysrgb&w=1800"},
-  "benefits":["Nationwide Delivery","Premium Fabric Selection","Easy Order & Support","Authentic Product Photos"],
-  "categories":["All","Three Piece","Embroidered","Cotton","Party Wear","Printed","Premium","New Arrival"],
-  "products":[
-    {"id":"fw1","name":"Sky Blue Embroidered Three Piece","brand":"FashioN /w SoniA","category":"Three Piece","price":2490,"oldPrice":2990,"rating":4.9,"featured":true,"newArrival":true,"image":"https://images.pexels.com/photos/20777201/pexels-photo-20777201.jpeg?auto=compress&cs=tinysrgb&w=900","description":"Elegant sky-blue three piece with detailed embroidery, matching trouser and flowing dupatta.","usage":"Gentle wash recommended. Follow the garment care label for embroidery."},
-    {"id":"fw2","name":"Rose Pink Embroidered Three Piece","brand":"SoniA Signature","category":"Embroidered","price":2890,"oldPrice":3390,"rating":4.9,"featured":true,"newArrival":true,"image":"https://images.pexels.com/photos/20777164/pexels-photo-20777164.jpeg?auto=compress&cs=tinysrgb&w=900","description":"Soft rose-pink embroidered kameez, trouser and printed dupatta for graceful occasions.","usage":"Gentle care recommended; protect the embroidery and dupatta edges."},
-    {"id":"fw3","name":"Ivory Heritage Three Piece","brand":"SoniA Luxe","category":"Premium","price":3290,"oldPrice":3890,"rating":5,"featured":true,"image":"https://images.pexels.com/photos/20791989/pexels-photo-20791989.jpeg?auto=compress&cs=tinysrgb&w=900","description":"Ivory and charcoal traditional three piece with statement embroidery and elegant finishing.","usage":"Dry clean or follow the garment care label for detailed areas."},
-    {"id":"fw4","name":"Terracotta Classic Three Piece","brand":"SoniA Signature","category":"Three Piece","price":2790,"oldPrice":3290,"rating":4.9,"featured":true,"image":"https://images.pexels.com/photos/20777207/pexels-photo-20777207.jpeg?auto=compress&cs=tinysrgb&w=900","description":"Rich terracotta three piece with printed dupatta and sophisticated eastern detailing.","usage":"Wash gently and shade dry. Iron inside-out on suitable heat."},
-    {"id":"fw5","name":"Blush Garden Three Piece","brand":"SoniA Studio","category":"Printed","price":2590,"oldPrice":2990,"rating":4.8,"image":"https://images.pexels.com/photos/31874433/pexels-photo-31874433.jpeg?auto=compress&cs=tinysrgb&w=900","description":"A refined blush-grey three piece with printed kameez and coordinating dupatta.","usage":"Gentle wash recommended. Avoid harsh bleach."},
-    {"id":"fw6","name":"Blue Heritage Signature Three Piece","brand":"SoniA Occasion","category":"Party Wear","price":3190,"oldPrice":3790,"rating":4.9,"featured":true,"newArrival":true,"image":"https://images.pexels.com/photos/20777203/pexels-photo-20777203.jpeg?auto=compress&cs=tinysrgb&w=900","description":"A statement blue embroidered three piece with coordinated scarf and premium detailing.","usage":"Handle embroidery gently and store folded in a dry place."},
-    {"id":"fw7","name":"Royal Blue Printed Three Piece","brand":"SoniA Premium","category":"Premium","price":2990,"oldPrice":3490,"rating":4.9,"featured":true,"image":"https://images.pexels.com/photos/20791983/pexels-photo-20791983.jpeg?auto=compress&cs=tinysrgb&w=900","description":"A sophisticated blue three piece with geometric embroidery, matching pants and dupatta.","usage":"Gentle wash recommended. Follow the care label."},
-    {"id":"fw8","name":"Ivory Pearl Festive Three Piece","brand":"SoniA Occasion","category":"New Arrival","price":3390,"oldPrice":3990,"rating":5,"featured":true,"newArrival":true,"image":"https://images.pexels.com/photos/20791989/pexels-photo-20791989.jpeg?auto=compress&cs=tinysrgb&w=900","description":"Elegant ivory festive three piece with delicate printed detailing and flowing dupatta.","usage":"Prefer gentle wash or dry clean for long-lasting finish."}
+  "settings": {
+    "brand": "FashioN /w SoniA",
+    "tagline": "Premium three-piece fashion, curated for women who love effortless elegance.",
+    "phone": "01616558387",
+    "whatsapp": "8801616558387",
+    "email": "hello@fashionwithsonia.com",
+    "announcement": "",
+    "aboutTitle": "Three-piece style, made beautifully.",
+    "aboutText": "FashioN /w SoniA brings together elegant three-piece looks with carefully selected fabrics, refined detailing and wearable silhouettes. Explore the collection, order online and talk to our fashion agent whenever you need help."
+  },
+  "theme": {
+    "bg": "#fbf7f2",
+    "panel": "#fffdf9",
+    "ink": "#28221f",
+    "muted": "#766d67",
+    "accent": "#a45b48",
+    "soft": "#f4e5dc",
+    "radius": "20px"
+  },
+  "hero": {
+    "eyebrow": "",
+    "title": "",
+    "description": "",
+    "image": "https://images.pexels.com/photos/20777201/pexels-photo-20777201.jpeg?auto=compress&cs=tinysrgb&w=1800"
+  },
+  "benefits": [
+    "Nationwide Delivery",
+    "Premium Fabric Selection",
+    "Easy Order & Support",
+    "Authentic Product Photos"
   ],
-  "socials":{"whatsapp":"https://wa.me/8801944299143","facebook":"#","instagram":"#","tiktok":"https://www.tiktok.com/@fashion.with.sonia"},
-  "agents":[{"id":"a1","name":"FashioN /w SoniA Fashion Agent","phone":"01944299143","whatsapp":"https://wa.me/8801944299143","messenger":"#","active":true}],
-  "chatbot":{"name":"SoniA Style Assistant","welcome":"Assalamu Alaikum! I can help with designs, fabric, sizing, price, delivery and orders.","knowledge":"FashioN /w SoniA offers premium three-piece fashion. Help customers choose designs, explain product details, guide size questions, check ordering steps and connect them to the fashion agent. Never invent stock or unavailable product details.","quick":["Show new arrivals","Help me choose","How to order","Talk to an agent"]},
-  "orders":[],
-  "reviews":[
-    {"id":"r1","name":"Mim","rating":5,"text":"The fabric looked beautiful in person and the packaging felt very premium.","date":"2026-09-18","approved":true},
-    {"id":"r2","name":"Nusrat","rating":5,"text":"Loved the three-piece design. Ordering was simple and the agent was helpful.","date":"2026-09-15","approved":true},
-    {"id":"r3","name":"Sadia","rating":4,"text":"Very elegant collection and the product details made choosing easier.","date":"2026-09-12","approved":true},
-    {"id":"r4","name":"Raisa","rating":5,"text":"Beautiful finishing and a classy overall shopping experience.","date":"2026-09-09","approved":true}
+  "categories": [
+    "All",
+    "Three Piece",
+    "Embroidered",
+    "Cotton",
+    "Party Wear",
+    "Printed",
+    "Premium",
+    "New Arrival"
   ],
-  "leads":[]
+  "products": [
+    {
+      "id": "fw1",
+      "name": "Sky Blue Embroidered Three Piece",
+      "brand": "FashioN /w SoniA",
+      "category": "Three Piece",
+      "price": 2490,
+      "oldPrice": 2990,
+      "rating": 4.9,
+      "featured": true,
+      "newArrival": true,
+      "image": "https://images.pexels.com/photos/20777201/pexels-photo-20777201.jpeg?auto=compress&cs=tinysrgb&w=900",
+      "description": "Elegant sky-blue three piece with detailed embroidery, matching trouser and flowing dupatta.",
+      "usage": "Gentle wash recommended. Follow the garment care label for embroidery."
+    },
+    {
+      "id": "fw2",
+      "name": "Rose Pink Embroidered Three Piece",
+      "brand": "SoniA Signature",
+      "category": "Embroidered",
+      "price": 2890,
+      "oldPrice": 3390,
+      "rating": 4.9,
+      "featured": true,
+      "newArrival": true,
+      "image": "https://images.pexels.com/photos/20777164/pexels-photo-20777164.jpeg?auto=compress&cs=tinysrgb&w=900",
+      "description": "Soft rose-pink embroidered kameez, trouser and printed dupatta for graceful occasions.",
+      "usage": "Gentle care recommended; protect the embroidery and dupatta edges."
+    },
+    {
+      "id": "fw3",
+      "name": "Ivory Heritage Three Piece",
+      "brand": "SoniA Luxe",
+      "category": "Premium",
+      "price": 3290,
+      "oldPrice": 3890,
+      "rating": 5,
+      "featured": true,
+      "image": "https://images.pexels.com/photos/20791989/pexels-photo-20791989.jpeg?auto=compress&cs=tinysrgb&w=900",
+      "description": "Ivory and charcoal traditional three piece with statement embroidery and elegant finishing.",
+      "usage": "Dry clean or follow the garment care label for detailed areas."
+    },
+    {
+      "id": "fw4",
+      "name": "Terracotta Classic Three Piece",
+      "brand": "SoniA Signature",
+      "category": "Three Piece",
+      "price": 2790,
+      "oldPrice": 3290,
+      "rating": 4.9,
+      "featured": true,
+      "image": "https://images.pexels.com/photos/20777207/pexels-photo-20777207.jpeg?auto=compress&cs=tinysrgb&w=900",
+      "description": "Rich terracotta three piece with printed dupatta and sophisticated eastern detailing.",
+      "usage": "Wash gently and shade dry. Iron inside-out on suitable heat."
+    },
+    {
+      "id": "fw5",
+      "name": "Blush Garden Three Piece",
+      "brand": "SoniA Studio",
+      "category": "Printed",
+      "price": 2590,
+      "oldPrice": 2990,
+      "rating": 4.8,
+      "image": "https://images.pexels.com/photos/31874433/pexels-photo-31874433.jpeg?auto=compress&cs=tinysrgb&w=900",
+      "description": "A refined blush-grey three piece with printed kameez and coordinating dupatta.",
+      "usage": "Gentle wash recommended. Avoid harsh bleach."
+    },
+    {
+      "id": "fw6",
+      "name": "Blue Heritage Signature Three Piece",
+      "brand": "SoniA Occasion",
+      "category": "Party Wear",
+      "price": 3190,
+      "oldPrice": 3790,
+      "rating": 4.9,
+      "featured": true,
+      "newArrival": true,
+      "image": "https://images.pexels.com/photos/20777203/pexels-photo-20777203.jpeg?auto=compress&cs=tinysrgb&w=900",
+      "description": "A statement blue embroidered three piece with coordinated scarf and premium detailing.",
+      "usage": "Handle embroidery gently and store folded in a dry place."
+    },
+    {
+      "id": "fw7",
+      "name": "Royal Blue Printed Three Piece",
+      "brand": "SoniA Premium",
+      "category": "Premium",
+      "price": 2990,
+      "oldPrice": 3490,
+      "rating": 4.9,
+      "featured": true,
+      "image": "https://images.pexels.com/photos/20791983/pexels-photo-20791983.jpeg?auto=compress&cs=tinysrgb&w=900",
+      "description": "A sophisticated blue three piece with geometric embroidery, matching pants and dupatta.",
+      "usage": "Gentle wash recommended. Follow the care label."
+    },
+    {
+      "id": "fw8",
+      "name": "Ivory Pearl Festive Three Piece",
+      "brand": "SoniA Occasion",
+      "category": "New Arrival",
+      "price": 3390,
+      "oldPrice": 3990,
+      "rating": 5,
+      "featured": true,
+      "newArrival": true,
+      "image": "https://images.pexels.com/photos/20791989/pexels-photo-20791989.jpeg?auto=compress&cs=tinysrgb&w=900",
+      "description": "Elegant ivory festive three piece with delicate printed detailing and flowing dupatta.",
+      "usage": "Prefer gentle wash or dry clean for long-lasting finish."
+    }
+  ],
+  "socials": {
+    "whatsapp": "https://wa.me/8801616558387",
+    "facebook": "#",
+    "instagram": "#",
+    "tiktok": "https://www.tiktok.com/@fashion.with.sonia"
+  },
+  "agents": [
+    {
+      "id": "a1",
+      "name": "FashioN /w SoniA Fashion Agent",
+      "phone": "01616558387",
+      "whatsapp": "https://wa.me/8801616558387",
+      "messenger": "#",
+      "active": true
+    }
+  ],
+  "chatbot": {
+    "name": "SoniA Style Assistant",
+    "welcome": "Assalamu Alaikum! I can help with designs, fabric, sizing, price, delivery and orders.",
+    "knowledge": "FashioN /w SoniA offers premium three-piece fashion. Help customers choose designs, explain product details, guide size questions, check ordering steps and connect them to the fashion agent. Never invent stock or unavailable product details.",
+    "quick": [
+      "Show new arrivals",
+      "Help me choose",
+      "How to order",
+      "Talk to an agent"
+    ]
+  },
+  "orders": [],
+  "reviews": [
+    {
+      "id": "r1",
+      "name": "Mim",
+      "rating": 5,
+      "text": "The fabric looked beautiful in person and the packaging felt very premium.",
+      "date": "2026-09-18",
+      "approved": true
+    },
+    {
+      "id": "r2",
+      "name": "Nusrat",
+      "rating": 5,
+      "text": "Loved the three-piece design. Ordering was simple and the agent was helpful.",
+      "date": "2026-09-15",
+      "approved": true
+    },
+    {
+      "id": "r3",
+      "name": "Sadia",
+      "rating": 4,
+      "text": "Very elegant collection and the product details made choosing easier.",
+      "date": "2026-09-12",
+      "approved": true
+    },
+    {
+      "id": "r4",
+      "name": "Raisa",
+      "rating": 5,
+      "text": "Beautiful finishing and a classy overall shopping experience.",
+      "date": "2026-09-09",
+      "approved": true
+    }
+  ],
+  "leads": []
 }
