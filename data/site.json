@@ -1,256 +1,30 @@
 {
-  "settings": {
-    "brand": "PURE NARI",
-    "tagline": "Premium Korean skincare, carefully curated for your everyday glow.",
-    "phone": "01944299143",
-    "whatsapp": "8801944299143",
-    "email": "hello@purenari.com",
-    "announcement": "KOREAN SKINCARE · REAL RESULTS · 24 HOUR SERVICE",
-    "aboutTitle": "Korean beauty, curated for your glow.",
-    "aboutText": "Discover carefully selected Korean skincare for cleansing, hydration, treatment and daily protection. Product information, prices, offers and store content stay editable from the admin panel."
-  },
-  "theme": {
-    "bg": "#fff",
-    "panel": "#fff",
-    "ink": "#20242b",
-    "muted": "#777",
-    "accent": "#e54872",
-    "soft": "#fff0f4",
-    "radius": "18px"
-  },
-  "hero": {
-    "eyebrow": "KOREAN SKINCARE",
-    "title": "Healthy Skin, Brighter You",
-    "description": "Premium Korean skincare for your natural glow. Clean, safe and beautifully curated.",
-    "image": "https://images.unsplash.com/photo-1556228578-8c89e6adf883?auto=format&fit=crop&w=1800&q=85"
-  },
-  "benefits": [
-    "সারা বাংলাদেশে Free Delivery",
-    "Free Consultation",
-    "24 Hour Service",
-    "100% Authentic Products"
+  "settings":{"brand":"FashioN /w SoniA","tagline":"Premium three-piece fashion, curated for women who love effortless elegance.","phone":"01944299143","whatsapp":"8801944299143","email":"hello@fashionwithsonia.com","announcement":"NEW SEASON · PREMIUM THREE PIECE · ORDER ONLINE · BANGLADESH","aboutTitle":"Three-piece style, made beautifully.","aboutText":"FashioN /w SoniA brings together elegant three-piece looks with carefully selected fabrics, refined detailing and wearable silhouettes. Explore the collection, order online and talk to our fashion agent whenever you need help."},
+  "theme":{"bg":"#fbf7f2","panel":"#fffdf9","ink":"#28221f","muted":"#766d67","accent":"#a45b48","soft":"#f4e5dc","radius":"20px"},
+  "hero":{"eyebrow":"THE SONIA EDIT · 2026","title":"Dress beautifully. Feel unforgettable.","description":"A premium three-piece collection for everyday elegance, celebrations and every moment in between.","image":"https://images.unsplash.com/photo-1594633312681-425c7b97ccd1?auto=format&fit=crop&w=1800&q=90"},
+  "benefits":["Nationwide Delivery","Premium Fabric Selection","Easy Order & Support","Authentic Product Photos"],
+  "categories":["All","Three Piece","Embroidered","Cotton","Party Wear","Printed","Premium","New Arrival"],
+  "products":[
+    {"id":"fw1","name":"SoniA Ivory Pearl Three Piece","brand":"FashioN /w SoniA","category":"Three Piece","price":2490,"oldPrice":2990,"rating":4.9,"featured":true,"newArrival":true,"image":"https://images.unsplash.com/photo-1585488436614-0f4d6e0a6c0f?auto=format&fit=crop&w=900&q=90","description":"An elegant ivory three-piece look with a refined, feminine finish.","usage":"Check the size guide before ordering. Wash according to the garment care label."},
+    {"id":"fw2","name":"Rose Garden Embroidered Set","brand":"SoniA Signature","category":"Embroidered","price":2890,"oldPrice":3390,"rating":4.9,"featured":true,"newArrival":true,"image":"https://images.unsplash.com/photo-1591369822096-ffd140ec948f?auto=format&fit=crop&w=900&q=90","description":"Soft rose tones with statement embroidery for festive styling.","usage":"For best care, follow the garment label and avoid harsh bleaching."},
+    {"id":"fw3","name":"Sage Serenity Cotton Three Piece","brand":"SoniA Cotton","category":"Cotton","price":2190,"oldPrice":2590,"rating":4.8,"featured":true,"image":"https://images.unsplash.com/photo-1551488831-00ddcb6c6bd3?auto=format&fit=crop&w=900&q=90","description":"Breathable cotton styling designed for comfortable everyday wear.","usage":"Gentle wash and shade dry recommended."},
+    {"id":"fw4","name":"Midnight Pearl Party Three Piece","brand":"SoniA Occasion","category":"Party Wear","price":3290,"oldPrice":3890,"rating":4.9,"featured":true,"newArrival":true,"image":"https://images.unsplash.com/photo-1515886657613-9f3515b0c78f?auto=format&fit=crop&w=900&q=90","description":"A polished party look with graceful texture and statement presence.","usage":"Dry clean or follow the garment care label for embellished areas."},
+    {"id":"fw5","name":"Blush Bloom Printed Set","brand":"SoniA Studio","category":"Printed","price":1990,"oldPrice":2390,"rating":4.7,"image":"https://images.unsplash.com/photo-1485230895905-ec40ba36b9bc?auto=format&fit=crop&w=900&q=90","description":"A soft floral print for effortless day-to-evening styling.","usage":"Machine wash on a gentle cycle or follow garment label instructions."},
+    {"id":"fw6","name":"Champagne Luxe Premium Three Piece","brand":"SoniA Luxe","category":"Premium","price":3490,"oldPrice":4190,"rating":5,"featured":true,"image":"https://images.unsplash.com/photo-1539109136881-3be0616acf4b?auto=format&fit=crop&w=900&q=90","description":"Premium occasionwear with a clean silhouette and elevated detailing.","usage":"Handle embellishments gently and store folded in a dry place."},
+    {"id":"fw7","name":"Olive Leaf Comfort Three Piece","brand":"SoniA Cotton","category":"Cotton","price":2290,"oldPrice":2690,"rating":4.8,"newArrival":true,"image":"https://images.unsplash.com/photo-1485968579580-b6d095142e6e?auto=format&fit=crop&w=900&q=90","description":"A relaxed premium cotton look with contemporary color and cut.","usage":"Gentle wash recommended; iron inside-out on suitable heat."},
+    {"id":"fw8","name":"Lavender Dream Embroidered Set","brand":"SoniA Signature","category":"Embroidered","price":2790,"oldPrice":3290,"rating":4.9,"image":"https://images.unsplash.com/photo-1529139574466-a303027c1d8b?auto=format&fit=crop&w=900&q=90","description":"Lavender tones and delicate embroidery for a graceful festive look.","usage":"Follow garment care instructions and protect embroidery from rough surfaces."},
+    {"id":"fw9","name":"Classic Black & Cream Three Piece","brand":"SoniA Studio","category":"Three Piece","price":2390,"oldPrice":2890,"rating":4.8,"image":"https://images.unsplash.com/photo-1483985988355-763728e1935b?auto=format&fit=crop&w=900&q=90","description":"A timeless two-tone look designed for versatile styling.","usage":"Wash and iron according to the garment care label."},
+    {"id":"fw10","name":"Festival Maroon Signature Set","brand":"SoniA Occasion","category":"New Arrival","price":3090,"oldPrice":3690,"rating":4.9,"featured":true,"newArrival":true,"image":"https://images.unsplash.com/photo-1496747611176-843222e1e57c?auto=format&fit=crop&w=900&q=90","description":"Rich maroon styling made for celebrations and special evenings.","usage":"Gentle care recommended, especially around detailed or embellished sections."}
   ],
-  "categories": [
-    "All",
-    "Cleanser",
-    "Toner",
-    "Essence",
-    "Serum",
-    "Moisturizer",
-    "Sunscreen",
-    "Mask",
-    "Lip Care",
-    "Body Care"
+  "socials":{"whatsapp":"https://wa.me/8801944299143","facebook":"#","instagram":"#","tiktok":"https://www.tiktok.com/@fashion.with.sonia"},
+  "agents":[{"id":"a1","name":"FashioN /w SoniA Fashion Agent","phone":"01944299143","whatsapp":"https://wa.me/8801944299143","messenger":"#","active":true}],
+  "chatbot":{"name":"SoniA Style Assistant","welcome":"Assalamu Alaikum! I can help with designs, fabric, sizing, price, delivery and orders.","knowledge":"FashioN /w SoniA offers premium three-piece fashion. Help customers choose designs, explain product details, guide size questions, check ordering steps and connect them to the fashion agent. Never invent stock or unavailable product details.","quick":["Show new arrivals","Help me choose","How to order","Talk to an agent"]},
+  "orders":[],
+  "reviews":[
+    {"id":"r1","name":"Mim","rating":5,"text":"The fabric looked beautiful in person and the packaging felt very premium.","date":"2026-09-18","approved":true},
+    {"id":"r2","name":"Nusrat","rating":5,"text":"Loved the three-piece design. Ordering was simple and the agent was helpful.","date":"2026-09-15","approved":true},
+    {"id":"r3","name":"Sadia","rating":4,"text":"Very elegant collection and the product details made choosing easier.","date":"2026-09-12","approved":true},
+    {"id":"r4","name":"Raisa","rating":5,"text":"Beautiful finishing and a classy overall shopping experience.","date":"2026-09-09","approved":true}
   ],
-  "products": [
-    {
-      "id": "pn1",
-      "name": "COSRX Low pH Good Morning Gel Cleanser",
-      "brand": "COSRX",
-      "category": "Cleanser",
-      "price": 1150,
-      "oldPrice": 1300,
-      "rating": 4.8,
-      "featured": true,
-      "newArrival": true,
-      "image": "https://images.unsplash.com/photo-1556228720-195a672e8a03?auto=format&fit=crop&w=900&q=85",
-      "description": "Gentle daily gel cleanser for a fresh, balanced routine.",
-      "usage": "Wet face, massage a small amount gently, then rinse with lukewarm water."
-    },
-    {
-      "id": "pn2",
-      "name": "Beauty of Joseon Relief Sun SPF50+ PA++++",
-      "brand": "Beauty of Joseon",
-      "category": "Sunscreen",
-      "price": 1550,
-      "oldPrice": 1750,
-      "rating": 4.9,
-      "featured": true,
-      "newArrival": true,
-      "image": "https://images.unsplash.com/photo-1556229010-0c8b4d6d3c0d?auto=format&fit=crop&w=900&q=85",
-      "description": "Lightweight daily sun protection with a comfortable finish.",
-      "usage": "Apply generously as the final morning skincare step and reapply during prolonged outdoor exposure."
-    },
-    {
-      "id": "pn3",
-      "name": "Anua Heartleaf 77% Soothing Toner",
-      "brand": "Anua",
-      "category": "Toner",
-      "price": 1850,
-      "oldPrice": 2100,
-      "rating": 4.8,
-      "featured": true,
-      "image": "https://images.unsplash.com/photo-1620916566398-39f1143ab7be?auto=format&fit=crop&w=900&q=85",
-      "description": "A soothing toner designed for a calm, hydrated feel.",
-      "usage": "After cleansing, pat an appropriate amount over face and neck."
-    },
-    {
-      "id": "pn4",
-      "name": "SKIN1004 Madagascar Centella Ampoule",
-      "brand": "SKIN1004",
-      "category": "Serum",
-      "price": 1990,
-      "oldPrice": 2250,
-      "rating": 4.9,
-      "featured": true,
-      "newArrival": true,
-      "image": "https://images.unsplash.com/photo-1611930022073-b7a4ba5fcccd?auto=format&fit=crop&w=900&q=85",
-      "description": "Centella-focused ampoule for a lightweight soothing routine.",
-      "usage": "Apply a few drops after toner and gently pat until absorbed."
-    },
-    {
-      "id": "pn5",
-      "name": "COSRX Advanced Snail 96 Mucin Essence",
-      "brand": "COSRX",
-      "category": "Essence",
-      "price": 1750,
-      "oldPrice": 1950,
-      "rating": 4.9,
-      "featured": true,
-      "image": "https://images.unsplash.com/photo-1611085583191-a3b181a88401?auto=format&fit=crop&w=900&q=85",
-      "description": "Hydrating essence with a silky, cushiony feel.",
-      "usage": "Apply a small amount after cleansing and toning, then pat gently."
-    },
-    {
-      "id": "pn6",
-      "name": "Beauty of Joseon Dynasty Cream",
-      "brand": "Beauty of Joseon",
-      "category": "Moisturizer",
-      "price": 1650,
-      "oldPrice": 1850,
-      "rating": 4.8,
-      "image": "https://images.unsplash.com/photo-1608248597279-f99d160bfcbc?auto=format&fit=crop&w=900&q=85",
-      "description": "Rich yet elegant cream for a nourished finish.",
-      "usage": "Use as the final skincare step; adjust amount to your skin's needs."
-    },
-    {
-      "id": "pn7",
-      "name": "SKIN1004 Hyalu-Cica Water-Fit Sun Serum",
-      "brand": "SKIN1004",
-      "category": "Sunscreen",
-      "price": 1490,
-      "oldPrice": 1690,
-      "rating": 4.8,
-      "newArrival": true,
-      "image": "https://images.unsplash.com/photo-1598440947619-2c35fc9aa908?auto=format&fit=crop&w=900&q=85",
-      "description": "Serum-like daily UV protection with a fresh texture.",
-      "usage": "Apply evenly to exposed skin as the final morning step."
-    },
-    {
-      "id": "pn8",
-      "name": "Laneige Water Sleeping Mask",
-      "brand": "Laneige",
-      "category": "Mask",
-      "price": 2200,
-      "oldPrice": 2450,
-      "rating": 4.7,
-      "image": "https://images.unsplash.com/photo-1570554886111-e80fcca6a96f?auto=format&fit=crop&w=900&q=85",
-      "description": "Overnight moisture care for a refreshed morning feel.",
-      "usage": "Apply an even layer as the last step at night and rinse in the morning."
-    },
-    {
-      "id": "pn9",
-      "name": "Round Lab Birch Juice Moisturizing Cream",
-      "brand": "Round Lab",
-      "category": "Moisturizer",
-      "price": 2100,
-      "oldPrice": 2350,
-      "rating": 4.8,
-      "newArrival": true,
-      "image": "https://images.unsplash.com/photo-1596462502278-27bfdc403348?auto=format&fit=crop&w=900&q=85",
-      "description": "Comforting daily moisturizer for a hydrated routine.",
-      "usage": "Apply after serum or essence and gently pat into skin."
-    },
-    {
-      "id": "pn10",
-      "name": "Torriden Dive-In Low Molecular Hyaluronic Serum",
-      "brand": "Torriden",
-      "category": "Serum",
-      "price": 1850,
-      "oldPrice": 2050,
-      "rating": 4.8,
-      "image": "https://images.unsplash.com/photo-1612817288484-6f916006741a?auto=format&fit=crop&w=900&q=85",
-      "description": "Hydration-focused serum for a plump, fresh feel.",
-      "usage": "Use 2–3 drops after toner and before moisturizer."
-    },
-    {
-      "id": "pn11",
-      "name": "rom&nd Glasting Melting Balm",
-      "brand": "rom&nd",
-      "category": "Lip Care",
-      "price": 1250,
-      "oldPrice": 1400,
-      "rating": 4.7,
-      "image": "https://images.unsplash.com/photo-1586495777744-4413f21062fa?auto=format&fit=crop&w=900&q=85",
-      "description": "Glossy Korean lip color with a soft balm-like feel.",
-      "usage": "Swipe directly onto lips and layer for desired intensity."
-    },
-    {
-      "id": "pn12",
-      "name": "Some By Mi AHA BHA PHA 30 Days Miracle Mask",
-      "brand": "Some By Mi",
-      "category": "Mask",
-      "price": 1450,
-      "oldPrice": 1650,
-      "rating": 4.7,
-      "image": "https://images.unsplash.com/photo-1570172619644-dfd03ed5d881?auto=format&fit=crop&w=900&q=85",
-      "description": "Weekly mask option for a refreshed skincare ritual.",
-      "usage": "Apply a thin layer, leave according to product directions, then rinse thoroughly."
-    }
-  ],
-  "socials": {
-    "whatsapp": "https://wa.me/8801944299143",
-    "facebook": "#",
-    "instagram": "#",
-    "tiktok": "#"
-  },
-  "agents": [
-    {
-      "id": "a1",
-      "name": "Pure Nari Beauty Agent",
-      "phone": "01944299143",
-      "whatsapp": "https://wa.me/8801944299143",
-      "messenger": "#",
-      "active": true
-    }
-  ],
-  "chatbot": {
-    "name": "Nari Beauty Assistant",
-    "welcome": "Assalamu Alaikum! I can help with products, usage, orders and delivery.",
-    "knowledge": "Ask me about Korean skincare categories, product usage, prices, ordering or delivery.",
-    "quick": [
-      "Product recommendation",
-      "How to use",
-      "Order now",
-      "Talk to an agent"
-    ]
-  },
-  "orders": [],
-  "reviews": [
-    {
-      "id": "r1",
-      "name": "Mim",
-      "rating": 5,
-      "text": "Beautiful packaging and a lovely shopping experience.",
-      "date": "2026-09-12",
-      "approved": true
-    },
-    {
-      "id": "r2",
-      "name": "Nusrat",
-      "rating": 5,
-      "text": "The product details and routine guidance were very helpful.",
-      "date": "2026-09-10",
-      "approved": true
-    },
-    {
-      "id": "r3",
-      "name": "Sadia",
-      "rating": 4,
-      "text": "Smooth ordering process and fast communication.",
-      "date": "2026-09-08",
-      "approved": true
-    }
-  ],
-  "leads": []
+  "leads":[]
 }
