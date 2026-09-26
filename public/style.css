@@ -72,3 +72,77 @@ footer{padding-top:30px}
   .reviewHead h2{font-size:29px}
   .reviewCard{width:235px}
 }
+
+/* 2026-09-27 — exact FashioN /w SoniA reference layout */
+header{height:68px}
+nav{height:68px;max-width:1500px;padding:6px 32px;gap:18px}
+.brand{width:190px}
+.navlinks{margin-left:48px;gap:27px}
+.navlinks a{font-size:11px}
+.navlinks a:first-child{padding:24px 0 21px}
+.headerTools{gap:12px}
+.searchBox{width:200px;height:36px}
+.hero{height:min(340px,26.66vw);min-height:250px;max-width:1500px}
+.heroImg img{object-position:center 52%;object-fit:cover}
+.heroArrow{width:36px;height:36px;font-size:29px}
+.categoryRow{padding:17px 32px 14px;border-bottom:1px solid #f5e3ea;background:#fff}
+.cats{max-width:1440px;margin:0 auto;min-width:0;gap:14px;justify-content:space-between}
+.cats button{width:92px;flex-basis:92px;font-size:10px;gap:7px}
+.catPic{width:54px;height:54px;box-shadow:none;background:#fff0f6}
+.shop{max-width:1500px;padding:21px 32px 29px}
+.sectionHead{margin-bottom:14px}
+.sectionHead h2{font-size:22px;font-weight:600}
+.kicker{font-size:19px}
+.sectionHead p{font-size:10px}
+.viewAll{padding:9px 15px;border-radius:18px;font-size:9px}
+.products{grid-template-columns:repeat(4,minmax(0,1fr));gap:20px;margin-top:0}
+.product{border-radius:9px;box-shadow:0 3px 13px rgba(54,29,39,.08)}
+.productImg{height:clamp(160px,15.6vw,210px)}
+.productMeta{padding:9px 10px 10px}
+.productMeta h3{font-size:10px;line-height:1.25;min-height:27px;margin-bottom:3px}
+.stars{font-size:9px}
+.price{margin-top:3px}
+.price b{font-size:12px}
+.old{font-size:8px}
+.productActions{gap:9px;margin-top:9px}
+.mini{height:30px;min-height:30px;font-size:8px;border-radius:5px}
+.reviews{padding-top:25px;padding-bottom:25px;background:linear-gradient(180deg,#fffafd,#fff0f6)}
+.reviewHead h2{font-size:22px}
+.reviewCard{width:calc((100vw - 112px)/4);max-width:235px;min-height:145px;border-radius:7px}
+.reviewTrack{gap:12px}
+footer{padding-top:28px;padding-bottom:22px}
+footer img{width:145px}
+.floatAgent{right:14px;bottom:15px}
+.agentFab,.chatFab,.topFab{width:38px;height:38px}
+@media(max-width:1050px){
+  nav{padding-left:24px;padding-right:24px}
+  .brand{width:175px}
+  .navlinks{margin-left:30px}
+  .searchBox{width:175px}
+  .hero{height:26.66vw;min-height:240px}
+  .categoryRow{padding-left:24px;padding-right:24px}
+  .shop{padding-left:24px;padding-right:24px}
+}
+@media(max-width:700px){
+  header{height:62px}
+  nav{height:62px;padding:7px 12px;gap:8px}
+  .brand{width:145px}
+  .navlinks{top:62px}
+  .hero{height:275px;min-height:275px}
+  .heroImg img{object-position:center center}
+  .heroArrow{width:48px;height:48px;font-size:36px}
+  .heroArrow.prev{left:25px}.heroArrow.next{right:25px}
+  .categoryRow{padding:14px 10px 12px}
+  .cats{min-width:max-content;justify-content:flex-start;gap:13px}
+  .cats button{width:73px;flex-basis:73px;font-size:9px}
+  .catPic{width:52px;height:52px}
+  .shop{padding:24px 24px 30px}
+  .sectionHead h2{font-size:30px}
+  .sectionHead p{font-size:10px}
+  .products{grid-template-columns:repeat(2,minmax(0,1fr));gap:12px}
+  .productImg{height:205px}
+  .productMeta{padding:9px}
+  .mini{font-size:8px}
+  .reviews{padding:28px 24px 32px}
+  .reviewCard{width:235px}
+}
