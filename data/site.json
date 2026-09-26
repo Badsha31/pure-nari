@@ -10,19 +10,19 @@
     "aboutText": "Discover refined three-piece fashion with premium fabrics, elegant detailing and carefully selected styles for every occasion."
   },
   "theme": {
-    "bg": "#fbf7f2",
-    "panel": "#fffdf9",
-    "ink": "#28221f",
-    "muted": "#766d67",
-    "accent": "#a45b48",
-    "soft": "#f4e5dc",
-    "radius": "20px"
+    "bg": "#fff8fb",
+    "panel": "#ffffff",
+    "ink": "#292229",
+    "muted": "#95878e",
+    "accent": "#e83d7b",
+    "soft": "#fff0f6",
+    "radius": "14px"
   },
   "hero": {
     "eyebrow": "",
     "title": "",
     "description": "",
-    "image": "https://images.unsplash.com/photo-1496747611176-843222e1e57c?auto=format&fit=crop&w=900&q=85"
+    "image": "https://images.unsplash.com/photo-1732511405757-5a908c8d158a?auto=format&fit=crop&w=1800&q=88"
   },
   "benefits": [
     "Nationwide Delivery",
@@ -52,9 +52,10 @@
       "rating": 4.8,
       "featured": true,
       "newArrival": true,
-      "image": "https://images.unsplash.com/photo-1496747611176-843222e1e57c?auto=format&fit=crop&w=900&q=85",
+      "image": "https://images.unsplash.com/photo-1732511405757-5a908c8d158a?auto=format&fit=crop&w=1000&q=88",
       "description": "Elegant sky-blue three piece with detailed embroidery, matching trouser and flowing dupatta.",
-      "usage": "Gentle wash recommended. Follow the garment care label for embroidery."
+      "usage": "Gentle wash recommended. Follow the garment care label for embroidery.",
+      "reviewCount": 124
     },
     {
       "id": "fw2",
@@ -66,9 +67,10 @@
       "rating": 4.9,
       "featured": true,
       "newArrival": false,
-      "image": "https://images.unsplash.com/photo-1529139574466-a303027c1d8b?auto=format&fit=crop&w=900&q=85",
+      "image": "https://images.unsplash.com/photo-1756483551860-2b312666ac53?auto=format&fit=crop&w=1000&q=88",
       "description": "Soft rose-pink embroidered kameez, trouser and printed dupatta for graceful occasions.",
-      "usage": "Gentle care recommended; protect the embroidery and dupatta edges."
+      "usage": "Gentle care recommended; protect the embroidery and dupatta edges.",
+      "reviewCount": 99
     },
     {
       "id": "fw3",
@@ -79,10 +81,11 @@
       "oldPrice": 3200,
       "rating": 4.7,
       "featured": true,
-      "image": "https://images.unsplash.com/photo-1515886657613-9f3515b0c78f?auto=format&fit=crop&w=900&q=85",
+      "image": "https://images.unsplash.com/photo-1760461804986-b9eeaa24cf28?auto=format&fit=crop&w=1000&q=88",
       "description": "Ivory and charcoal traditional three piece with statement embroidery and elegant finishing.",
       "usage": "Dry clean or follow the garment care label for detailed areas.",
-      "newArrival": false
+      "newArrival": false,
+      "reviewCount": 156
     },
     {
       "id": "fw4",
@@ -93,10 +96,11 @@
       "oldPrice": 4200,
       "rating": 4.8,
       "featured": true,
-      "image": "https://images.unsplash.com/photo-1483985988355-763728e1935b?auto=format&fit=crop&w=900&q=85",
+      "image": "https://images.unsplash.com/photo-1624214390234-2849d6a888c0?auto=format&fit=crop&w=1000&q=88",
       "description": "Rich terracotta three piece with printed dupatta and sophisticated eastern detailing.",
       "usage": "Wash gently and shade dry. Iron inside-out on suitable heat.",
-      "newArrival": false
+      "newArrival": false,
+      "reviewCount": 112
     },
     {
       "id": "fw5",
@@ -106,11 +110,12 @@
       "price": 2750,
       "oldPrice": 3300,
       "rating": 4.6,
-      "image": "https://images.unsplash.com/photo-1503342217505-b0a15ec3261c?auto=format&fit=crop&w=900&q=85",
+      "image": "https://images.unsplash.com/photo-1503342217505-b0a15ec3261c?auto=format&fit=crop&w=1000&q=88",
       "description": "A refined blush-grey three piece with printed kameez and coordinating dupatta.",
       "usage": "Gentle wash recommended. Avoid harsh bleach.",
       "featured": false,
-      "newArrival": false
+      "newArrival": false,
+      "reviewCount": 87
     },
     {
       "id": "fw6",
@@ -122,9 +127,10 @@
       "rating": 4.7,
       "featured": false,
       "newArrival": true,
-      "image": "https://images.unsplash.com/photo-1485968579580-b6d095142e6e?auto=format&fit=crop&w=900&q=85",
+      "image": "https://images.unsplash.com/photo-1485968579580-b6d095142e6e?auto=format&fit=crop&w=1000&q=88",
       "description": "A statement blue embroidered three piece with coordinated scarf and premium detailing.",
-      "usage": "Handle embroidery gently and store folded in a dry place."
+      "usage": "Handle embroidery gently and store folded in a dry place.",
+      "reviewCount": 93
     },
     {
       "id": "fw7",
@@ -135,10 +141,11 @@
       "oldPrice": 3800,
       "rating": 4.8,
       "featured": false,
-      "image": "https://images.unsplash.com/photo-1485230895905-ec40ba36b9bc?auto=format&fit=crop&w=900&q=85",
+      "image": "https://images.unsplash.com/photo-1485230895905-ec40ba36b9bc?auto=format&fit=crop&w=1000&q=88",
       "description": "A sophisticated blue three piece with geometric embroidery, matching pants and dupatta.",
       "usage": "Gentle wash recommended. Follow the care label.",
-      "newArrival": false
+      "newArrival": false,
+      "reviewCount": 121
     },
     {
       "id": "fw8",
@@ -150,9 +157,10 @@
       "rating": 4.7,
       "featured": false,
       "newArrival": false,
-      "image": "https://images.unsplash.com/photo-1475180098004-ca77a66827be?auto=format&fit=crop&w=900&q=85",
+      "image": "https://images.unsplash.com/photo-1475180098004-ca77a66827be?auto=format&fit=crop&w=1000&q=88",
       "description": "Elegant ivory festive three piece with delicate printed detailing and flowing dupatta.",
-      "usage": "Prefer gentle wash or dry clean for long-lasting finish."
+      "usage": "Prefer gentle wash or dry clean for long-lasting finish.",
+      "reviewCount": 105
     }
   ],
   "socials": {
