@@ -1,0 +1,35 @@
+/* Desktop category spacing: compact and centered without changing the category design. */
+@media (min-width: 701px) {
+  .categoryRow {
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  .cats {
+    width: min(100%, 760px);
+    min-width: 0;
+    margin-inline: auto;
+    justify-content: space-between;
+    gap: 10px;
+  }
+
+  .cats button {
+    flex: 0 0 82px;
+    width: 82px;
+  }
+}
+
+@media (min-width: 1051px) {
+  .cats {
+    width: min(100%, 720px);
+    gap: 8px;
+  }
+}
+
+@media (max-width: 700px) {
+  .cats {
+    width: max-content;
+    min-width: max-content;
+    margin-inline: 0;
+  }
+}
