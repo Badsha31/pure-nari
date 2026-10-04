@@ -25,11 +25,11 @@ else if(/order|অর্ডার|buy|কিনবো/.test(q))reply="Open a pro
 else if(/price|দাম|tk|৳/.test(q))reply="Product prices are shown directly on each product card and in the product details.";
 else if(/three piece|threepiece|3 piece|থ্রি পিস/.test(q))reply="We have multiple three-piece collections including embroidered, cotton, printed, party and premium styles.";
 return send(res,200,{reply})}
-if(u.pathname==="/api/admin/stats"&&req.method==="GET"&&auth(req))return send(res,200,{orders:d.orders?.length||0,revenue:(d.orders||[]).reduce((s,o)=>s+(Number(o.total)||0),0),products:d.products?.length||0,reviews:d.reviews?.length||0,leads:d.leads?.length||0});
-if(u.pathname==="/api/admin/orders"&&req.method==="GET"&&auth(req))return send(res,200,d.orders||[]);
-if(u.pathname==="/api/admin/reviews"&&req.method==="GET"&&auth(req))return send(res,200,d.reviews||[]);
-if(u.pathname==="/api/admin/leads"&&req.method==="GET"&&auth(req))return send(res,200,d.leads||[]);
-let m=u.pathname.match(/^\/api\/admin\/(orders|reviews|leads)\/([^/]+)$/);if(m&&req.method==="PATCH"&&auth(req)){let b=await body(req),arr=d[m[1]]||[],i=arr.findIndex(x=>x.id===m[2]);if(i<0)return send(res,404,{error:"Not found"});arr[i]={...arr[i],...b};d[m[1]]=arr;save(d);return send(res,200,{ok:true})}
-if(u.pathname==="/api/site"&&req.method==="PUT"&&auth(req)){let b=await body(req);d={...d,...b};save(d);return send(res,200,{ok:true})}
+if(u.pathname==="/api/admin/stats"&&req.method==="GET")return send(res,200,{orders:d.orders?.length||0,revenue:(d.orders||[]).reduce((s,o)=>s+(Number(o.total)||0),0),products:d.products?.length||0,reviews:d.reviews?.length||0,leads:d.leads?.length||0});
+if(u.pathname==="/api/admin/orders"&&req.method==="GET")return send(res,200,d.orders||[]);
+if(u.pathname==="/api/admin/reviews"&&req.method==="GET")return send(res,200,d.reviews||[]);
+if(u.pathname==="/api/admin/leads"&&req.method==="GET")return send(res,200,d.leads||[]);
+let m=u.pathname.match(/^\/api\/admin\/(orders|reviews|leads)\/([^/]+)$/);if(m&&req.method==="PATCH"){let b=await body(req),arr=d[m[1]]||[],i=arr.findIndex(x=>x.id===m[2]);if(i<0)return send(res,404,{error:"Not found"});arr[i]={...arr[i],...b};d[m[1]]=arr;save(d);return send(res,200,{ok:true})}
+if(u.pathname==="/api/site"&&req.method==="PUT"){let b=await body(req);d={...d,...b};save(d);return send(res,200,{ok:true})}
 serve(req,res)}catch(e){send(res,500,{error:"Server error"})}});
 server.listen(PORT,"0.0.0.0",()=>console.log("FASHION WITH SONIA running on "+PORT));
