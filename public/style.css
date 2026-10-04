@@ -146,3 +146,39 @@ footer img{width:145px}
   .reviews{padding:28px 24px 32px}
   .reviewCard{width:235px}
 }
+
+
+/* Desktop hero visibility fix — keep the complete three-piece model in frame */
+@media (min-width: 1051px){
+  .hero{
+    height: clamp(430px, 38vw, 590px);
+    max-width: 1500px;
+    overflow: hidden;
+  }
+  .heroImg{
+    height: 100%;
+    width: 100%;
+    display: grid;
+    place-items: center;
+    background: linear-gradient(135deg,#fff4f8,#ffe3ee);
+  }
+  .heroImg img{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    object-position: center center;
+    background: linear-gradient(135deg,#fff4f8,#ffe3ee);
+  }
+  .heroArrow{
+    top: 50%;
+    transform: translateY(-50%);
+  }
+}
+
+/* Keep the existing mobile hero behavior unchanged */
+@media (max-width: 1050px){
+  .heroImg img{
+    object-fit: cover;
+    object-position: center center;
+  }
+}
